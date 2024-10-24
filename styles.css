@@ -1,0 +1,185 @@
+/* Main font for headings */
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+/* Subfont for body text */
+body, .nav-link, p, li, button, input, textarea, .btn {
+    font-family: 'Jua', sans-serif;
+}
+
+
+/* General styles for the navbar */
+.navbar {
+    background-color: #b58b61; /* Warm coffee brown */
+    border-bottom: 3px solid #8c6c4a; /* Darker brown border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Navbar brand/logo styles */
+.navbar-brand {
+    font-weight: bold;
+    color: #e2b590 !important; /* Creamy light color for the brand text */
+}
+
+/* Navbar link styles */
+.nav-link {
+    color: #5e4229 !important; /* Dark espresso shade */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Navbar link hover styles */
+.nav-link:hover {
+    color: #e2b590 !important; /* Creamy color on hover for interactivity */
+}
+
+/* Navbar toggler icon color (hamburger menu) */
+.navbar-toggler {
+    border-color: #8c6c4a; /* Border color for the toggler */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23e2b590' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* SVG with cream stroke */
+}
+
+/* Responsive navbar collapse styles */
+.navbar-collapse {
+    background-color: #b58b61 !important; /* Ensure the collapsed content matches the navbar */
+}
+
+/* Hero section */
+.hero-section {
+    background: url('background.jpeg');
+    background-size: cover;
+    color: #fff; /* White text color for contrast */
+    padding: 130px 0;
+    position: relative;
+    background-position: center;
+}
+
+/* Text on Hero section */
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e2b590; /* Creamy heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    color: #f0e2d3; /* Light coffee cream */
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Button styles */
+.hero-section .btn-primary {
+    background-color: #a67855; /* Medium brown */
+    border-color: #a67855;
+    font-size: 1.25rem;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    transition: background-color 0.5s ease;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #8c5e3e; /* Darker brown when hovered */
+    border-color: #8c5e3e;
+}
+
+/* Carousel styling */
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#merchCarousel {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #8c6c4a; /* Dark brown for controls */
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+}
+
+.carousel-indicators button {
+    background-color: #8c6c4a; /* Matching brown for indicators */
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #d5b48a; /* Light cream for active indicator */
+}
+
+/* Text section adjustments */
+h2 {
+    color: #8c6c4a; /* Dark coffee brown */
+    text-shadow: 
+    -1px -1px 0 #5e4229,  
+     1px -1px 0 #5e4229,
+    -1px  1px 0 #5e4229,
+     1px  1px 0 #5e4229;
+    font-weight: 700;
+}
+
+p {
+    color: #5e4229; /* Deep coffee brown */
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+/* Card styling */
+.card {
+    background-color: #e6d4ba; /* Soft creamy background */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.card-body {
+    color: #5e4229; /* Coffee brown for text */
+}
+
+.card-title {
+    font-weight: 700;
+    color: #5e4229;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #5e4229;
+}
+
+.card-footer {
+    background-color: #e6d4ba;
+    border-top: 1px solid #d5b48a;
+    color: #5e4229;
+}
+
+/* Footer styling */
+footer {
+    background-color: #8c6c4a; /* Rich brown */
+    color: #e6d4ba; /* Light creamy text */
+    padding: 20px 0;
+    border-top: 3px solid #d5b48a;
+}
+
+footer a {
+    color: #e2b590; /* Light cream links */
+}
+
+footer a:hover {
+    color: #d5b48a; /* Dark cream hover effect */
+}
